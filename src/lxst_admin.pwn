@@ -66,11 +66,11 @@ public OnFilterScriptInit()
 
 
 
-  print("| XFR FREEROAM ADMIN SCRIPT");
+  print("| LXST ADMIN SCRIPT");
 
 
 
-  print("| VERSION 1.5");
+  print("| VERSION 2.0");
 
 
 
