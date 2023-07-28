@@ -28,6 +28,9 @@
 #include <discord-connector>
 
 
+#include <lxstadmin>
+
+
 
 #pragma tabsize 0
 
