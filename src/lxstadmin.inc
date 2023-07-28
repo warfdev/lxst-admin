@@ -93,7 +93,7 @@ stock SendClientAnnounce(playerid, text[])
 
 stock SendClientAnnounceForAll(text[])
 {
-  for(new i,a = GetMaxPlayers(); i < a; i++){ if(IsPlayerConnected(i){ GameTextForPlayer(i, text, 4000, 3); } }
+  for(new i,a = GetMaxPlayers(); i < a; i++){ if(IsPlayerConnected(i){ GameTextForPlayer(i, text, 4000, 3); } } else return false;
 }
 
 
